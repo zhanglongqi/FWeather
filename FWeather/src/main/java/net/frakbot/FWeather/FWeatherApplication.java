@@ -65,8 +65,8 @@ public class FWeatherApplication extends Application {
         super.onCreate();
 
         // This will fail if you didn't define your own API key string!
-//        mApiKey = getString(R.string.weather_api_key);
-        mApiKey = "ggg";
+        mApiKey = getString(R.string.weather_api_key);
+//        mApiKey = "ggg";
 
         initUserAgent();
 
