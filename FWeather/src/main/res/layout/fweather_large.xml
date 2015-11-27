@@ -61,6 +61,19 @@
                 tools:text="Here goes the temperature"
                 style="@style/SmallText"/>
 
+
+        <TextView
+            style="@style/SmallText"
+            tools:text="SPI"
+            android:id="@+id/txt_SPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_weathericon"
+            android:bufferType="spannable"
+            android:layout_above="@+id/txt_weather"
+            android:clickable="false"
+            android:textColor="@color/temp_cold" />
+
     </RelativeLayout>
 
 </FrameLayout>
